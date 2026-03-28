@@ -10,7 +10,6 @@ Date: 03/27/2026
 from pathlib import Path
 import string
 
-
 class WordAnalyzer:
     def __init__(self, filepath):
         self.__path = Path(filepath)
